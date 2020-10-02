@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image:url(../assets/lamborghini-urus\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    margin:0 auto;
+}
+.overlay {
+    height: 100vmin;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    background-color: black; 
+}
+
+ul li {
+    list-style: none;
+}
+
+.link1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px 0px 15px;
+}
+
+li {
+    padding: 20px 0px 0px 15px;
+}
+
+.Contact-Us {
+    margin-right: 40px;
+}
+
+.Contact-Us:hover {
+    background-color:gray;
+    color: black;
+    cursor:progress;
+}
+
+.oyas {
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.oyas .btn2 {
+    font-size: 4rem;
+}
+
+button {
+    margin: 10px 15px -10px 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(59, 26, 15, 0.219);
+    color: white;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0.5px solid;
+    padding: 05px 15px 05px 15px;
+    border-radius: 5px; 
+}
+
+.btn2:hover {
+    background-color:  rgba(48, 44, 43, 0.5);
+    color:gray;
+    cursor: pointer;
+
+}
+
+.logo {
+    height: 40px;
+    float: left;
+    position: relative;
+    margin: 35px 15px 0px 25px;
+}
